@@ -12,7 +12,6 @@ target: Attrition_Flag
 features:
   - Customer_Age
   - Total_Amt_Chng_Q4_Q1
-  - Total_Relationship_Count
   - Total_Revolving_Bal
   - Total_Ct_Chng_Q4_Q1
   - Total_Trans_Ct
@@ -22,6 +21,7 @@ features:
 
 temp_features:
  - Gender
+ - Total_Relationship_Count
  - Dependent_count
  - Education_Level
  - Marital_Status
